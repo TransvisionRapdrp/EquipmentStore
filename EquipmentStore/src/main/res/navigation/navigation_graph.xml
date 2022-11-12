@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/main">
+
+    <fragment
+        android:id="@+id/equipment_insert"
+        android:name="com.example.equipmentstore.fragments.RequestFragment"
+        android:label="Equipment Insert"
+        tools:layout="@layout/fragment_request" />
+    <fragment
+        android:id="@+id/main"
+        android:name="com.example.equipmentstore.fragments.MainFragment"
+        android:label="Store Management">
+        <action
+            android:id="@+id/action_main_to_equipment_insert"
+            app:destination="@id/equipment_insert"
+            app:popUpTo="@id/main"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_main_to_nav_recieved"
+            app:destination="@id/nav_recieved"
+            app:popUpTo="@id/main"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_main_to_view"
+            app:destination="@id/view"
+            app:popUpTo="@id/main"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_main_to_management_nav"
+            app:destination="@id/management_nav"
+            app:popUpTo="@id/main"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_main_to_attendanceReport"
+            app:destination="@id/attendanceReport"
+            app:popUpTo="@id/main"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_main_to_attendanceInsert"
+            app:destination="@id/attendanceInsert"
+            app:popUpTo="@id/main"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_main_to_hardwareComplaint"
+            app:destination="@id/hardwareComplaint"
+            app:popUpTo="@id/main"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_main_to_hardwareComplaintReport"
+            app:destination="@id/hardwareComplaintReport"
+            app:popUpTo="@id/main"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_main_to_receviedPost"
+            app:destination="@id/receviedPost"
+            app:popUpTo="@id/main"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_recieved"
+        android:name="com.example.equipmentstore.fragments.Received_Aproval"
+        android:label="ReceivedApproval"
+        tools:layout="@layout/fragment_received__aproval" />
+    <fragment
+        android:id="@+id/view"
+        android:name="com.example.equipmentstore.fragments.ViewFragment"
+        android:label="View Approvals"
+        tools:layout="@layout/fragment_view" />
+    <fragment
+        android:id="@+id/management_nav"
+        android:name="com.example.equipmentstore.fragments.ManagementApproval"
+        android:label="Management Apporval" />
+    <fragment
+        android:id="@+id/postoffice_nav"
+        android:name="com.example.equipmentstore.fragments.PostOffice"
+        android:label="Post Office Letter" />
+    <fragment
+        android:id="@+id/visitor_nav"
+        android:name="com.example.equipmentstore.fragments.Visitors_Fragment"
+        android:label="Visitors Info"
+        tools:layout="@layout/fragment_visitors_" />
+    <fragment
+        android:id="@+id/staffoutgoing_nav"
+        android:name="com.example.equipmentstore.fragments.Staff_Outgoing"
+        android:label="Staff Out Going" />
+
+    <fragment
+        android:id="@+id/attendanceReport"
+        android:name="com.example.equipmentstore.fragments.AttendanceReport"
+        android:label="Attendance Report"
+        tools:layout="@layout/fragment_attendance_report" />
+    <fragment
+        android:id="@+id/attendanceInsert"
+        android:name="com.example.equipmentstore.fragments.AttendanceInsert"
+        android:label="Attendance Insert"
+        tools:layout="@layout/fragment_attendance_insert" />
+    <fragment
+        android:id="@+id/hardwareComplaint"
+        android:name="com.example.equipmentstore.fragments.HardwareComplaint"
+        android:label="Hardware Complaint"
+        tools:layout="@layout/fragment_hardware_complaint" />
+
+    <fragment
+        android:id="@+id/hardwareComplaintReport"
+        android:name="com.example.equipmentstore.fragments.HardwareComplaint"
+        android:label="Hardware Complaint Report"
+        tools:layout="@layout/fragment_view_complaint" />
+
+    <fragment
+        android:id="@+id/receviedPost"
+        android:name="com.example.equipmentstore.fragments.ReceviedPost"
+        android:label="Received Post"
+        tools:layout="@layout/fragment_recevied_post" />
+</navigation>

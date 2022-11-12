@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ReceviedPost">
+
+    <androidx.cardview.widget.CardView
+        style="@style/height_wrap_parent"
+        app:cardCornerRadius="@dimen/dp4"
+        android:layout_margin="@dimen/dp4"
+        android:elevation="@dimen/dp4"
+        app:cardUseCompatPadding="true">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/approval_recycler"
+            style="@style/height_wrap_parent" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

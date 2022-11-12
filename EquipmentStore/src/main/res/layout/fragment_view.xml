@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear"
+    tools:context=".fragments.ViewFragment"
+    android:orientation="vertical">
+
+   <!-- <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"/>-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_view_complaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include layout="@layout/internet_not_found"/>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fitsSystemWindows="true"-->
+<!--        android:orientation="vertical"-->
+<!--        app:behavior_hideable="true"-->
+<!--        app:behavior_peekHeight="0dp"-->
+<!--        android:id="@+id/bottom_sheet"-->
+<!--        android:background="@android:color/white"-->
+<!--        app:layout_behavior="@string/bottom_sheet_behavior">-->
+
+<!--        <include layout="@layout/bottom_sheet_approval"/>-->
+<!--    </LinearLayout>-->
+</LinearLayout>

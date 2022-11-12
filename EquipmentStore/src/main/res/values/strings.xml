@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Store Management</string>
+
+    <string name="user">user</string>
+    <string name="login_name">user name</string>
+    <string name="login_password">password</string>
+    <string name="login_headline">Login</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="req_eqipment">Request Eqipment</string>
+    <string name="managementApproval">Received Approval</string>
+    <string name="view_apporval">View Approval</string>
+    <string name="semi_colon">:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_cancelled_image">User cancelled image capture</string>
+    <string name="image_capture_failed">Sorry! Failed to capture image</string>
+
+    <string name="request_equipment">Request Equipment</string>
+    <string name="management">Management Approval</string>
+    <string name="received_approval">Received Approval</string>
+    <string name="view_approval">View Approval</string>
+    <string name="view_allapprovals">ViewAll Approvals</string>
+    <string name="attendence">Attendence</string>
+    <string name="attendence_report">Attendence Report</string>
+    <string name="hardware_complaint">Hardware Complaint</string>
+    <string name="view_hardware_complaint">View HardwareComplaint</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="logout">Logout</string>
+    <string name="date">Date :</string>
+    <string name="post_office">Post office</string>
+    <string name="visitors">Visitors</string>
+    <string name="staff_outgoing">Staff_Outgoing</string>
+    <string name="dateofvisit">Date of Visit</string>
+    <string name="visitorname">Visitor Name</string>
+    <string name="fromvisitor">From Visitor</string>
+    <string name="Visit_purp">Visit_purp</string>
+    <string name="tomeet">To meet</string>
+    <string name="ContactNumber">Ph Number</string>
+    <string name="PriorityAppointed"> Appointed</string>
+    <string name="Mailid">Mail Id</string>
+    <string name="InTime">In time</string>
+    <string name="Outtime">Out time</string>
+    <string name="Remarks">Remarks</string>
+    <string name="Incharge">Incharge</string>
+    <string name="Submit">Submit</string>
+    <string name="select_cancel">No</string>
+    <string name="select_ok">Yes</string>
+    <string name="exit">Do you want to exit the app?</string>
+    <string name="atsymbol">@</string>
+    <string name="tr_nsvision">Tr</string>
+    <string name="tr_nsvision1">nsvision</string>
+    <string name="internet_content">Please Check Your Connection Status and Try Again</string>
+    <string name="nointernet">No Internet</string>
+    <string name="close">Retry</string>
+    <string name="user_name">user name</string>
+    <string name="mpin">Enter MPIN</string>
+    <string name="mpin2">Confirm MPIN</string>
+    <string name="select_items">Select Items</string>
+
+    <string name="app_update_title">App Updates</string>
+    <string name="app_update_msg_1">Your current version number : </string>
+    <string name="app_update_msg_2">New version is available : </string>
+    <string name="apk_download_title">Apk Download</string>
+    <string name="app_no_updates_msg_1">Your current application version</string>
+    <string name="app_no_updates_msg_2">is up to date&#8230;</string>
+    <string name="apk_downloading_msg">Downloading apk file please wait&#8230;</string>
+    <string name="select_update">UPDATE</string>
+    <string name="percentage">%</string>
+
+    <string-array name="role">
+        <item>Select TypeOf Posts</item>
+        <item>Courier</item>
+        <item>Speed Post</item>
+        <item>Fax</item>
+        <item>Normal Post</item>
+        <item>Parcel</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>Select In/Out</item>
+        <item>In</item>
+        <item>Out</item>
+    </string-array>
+
+    <string-array name="mode_of_transport">
+        <item>Select Mode of Transport</item>
+        <item>Bus</item>
+        <item>Bike</item>
+        <item>Car</item>
+    </string-array>
+
+    <string-array name="hardware_type">
+        <item>SELECT</item>
+        <item>Printer</item>
+        <item>computer</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+</resources>

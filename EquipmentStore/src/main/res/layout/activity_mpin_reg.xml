@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gradbluecolor"
+    tools:context=".mpin_login.Mpin_reg">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:elevation="4dp"
+            app:titleTextColor="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        style="@style/height_wrap_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            style="@style/height_wrap_parent"
+            android:layout_margin="@dimen/dp8"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="176dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp10"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:gravity="start"
+                android:text="@string/login_name"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+
+            <EditText
+                android:id="@+id/mpinlog_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp40"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:drawableStart="@drawable/ic_account"
+                android:drawableLeft="@drawable/ic_account"
+                android:hint="@string/user_name"
+                android:inputType="text"
+                android:padding="@dimen/dp10"
+                android:paddingLeft="@dimen/dp8"
+                android:singleLine="true"
+                android:textSize="@dimen/text14" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:gravity="start"
+                android:text="@string/login_password"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+
+            <EditText
+                android:id="@+id/mpinlogin_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp40"
+                android:autofillHints="@string/user"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/ic_key_24"
+                android:hint=" password"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/dp10"
+                android:singleLine="true"
+                android:text="Darma@123"
+                android:textSize="@dimen/text14" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:gravity="start"
+                android:text="@string/mpin"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+
+            <EditText
+                android:id="@+id/et_mpin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp40"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/ic_key_24"
+                android:hint="Enter mpin"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:paddingLeft="@dimen/dp10"
+                android:singleLine="true"
+                android:textSize="@dimen/text14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:gravity="start"
+                android:text="@string/mpin2"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+
+            <EditText
+                android:id="@+id/et_mpin_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp40"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:drawableStart="@drawable/ic_key_24"
+                android:drawableLeft="@drawable/ic_key_24"
+                android:hint="Enter Confirm mpin"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:paddingStart="@dimen/dp10"
+                android:paddingLeft="@dimen/dp10"
+                android:singleLine="true"
+                android:textSize="@dimen/text14"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mpinbt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Login"
+        android:layout_margin="@dimen/dp10"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

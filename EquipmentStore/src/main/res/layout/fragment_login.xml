@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#BFEFF6"
+    android:layout_height="match_parent"
+    tools:context=".login.Login">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/dp30"
+        android:layout_marginTop="@dimen/dp20"
+        android:background="@drawable/edit_bg"
+        android:drawableStart="@drawable/key"
+        android:drawablePadding="@dimen/dp10"
+        android:hint="Password"
+        android:padding="@dimen/dp6"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imagebutton"
+        android:layout_width="@dimen/dp60"
+        android:layout_height="50dp"
+        android:padding="@dimen/dp10"
+        android:background="@color/yellow"
+        android:src="@drawable/ic_arrow"
+        app:layout_constraintBottom_toBottomOf="@+id/editText"
+        app:layout_constraintStart_toEndOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="@+id/editText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relative_request_equipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/img_language"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/request"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txt_request_equipment"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_toEndOf="@+id/img_language"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Request Equipment"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,RtlCompat" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                android:src="@drawable/ic_baseline_navigate_next_24"
+                android:textAlignment="viewEnd"
+                app:tint="@color/gray" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/relative_recevied_approval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/img_recevied_approval"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/received"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txt_language"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_toEndOf="@+id/img_recevied_approval"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Recevied Approval"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,RtlCompat" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                android:src="@drawable/ic_baseline_navigate_next_24"
+                android:textAlignment="viewEnd"
+                app:tint="@color/gray" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/relative_view_approval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/img_view_approval"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/approval"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txt_view_approval"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_toEndOf="@+id/img_view_approval"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="View Approval"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,RtlCompat" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                android:src="@drawable/ic_baseline_navigate_next_24"
+                android:textAlignment="viewEnd"
+                app:tint="@color/gray" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/relative_managment_approval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/img_managment_approval"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/management"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txt_managment_approval"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_toEndOf="@+id/img_managment_approval"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Managment Approval"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,RtlCompat" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                android:src="@drawable/ic_baseline_navigate_next_24"
+                android:textAlignment="viewEnd"
+                app:tint="@color/gray" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/relative_attendane_insert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/img_attendane_insert"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/attendanceicon"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txt_attendane_insert"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_toEndOf="@+id/img_attendane_insert"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Attendane Insert"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,RtlCompat" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                android:src="@drawable/ic_baseline_navigate_next_24"
+                android:textAlignment="viewEnd"
+                app:tint="@color/gray" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/relative_attendane_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/img_attendane_report"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/attendancereporticon"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txt_attendane_report"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_toEndOf="@+id/img_attendane_report"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Attendane Report"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,RtlCompat" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                android:src="@drawable/ic_baseline_navigate_next_24"
+                android:textAlignment="viewEnd"
+                app:tint="@color/gray" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/relative_hardware_complaint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/img_hardware_complaint"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/harwareicon"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txt_hardware_complaint"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_toEndOf="@+id/img_hardware_complaint"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Hardware Complaint"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,RtlCompat" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                android:src="@drawable/ic_baseline_navigate_next_24"
+                android:textAlignment="viewEnd"
+                app:tint="@color/gray" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/relative_hardware_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/img_hardware_report"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/reporticon"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txt_hardware_report"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_toEndOf="@+id/img_hardware_report"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Hardware Complaint Report"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,RtlCompat" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                android:src="@drawable/ic_baseline_navigate_next_24"
+                android:textAlignment="viewEnd"
+                app:tint="@color/gray" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/relative_post_recevied"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/img_post_recevied"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/postrecvd"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txt_post_recevied"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_toEndOf="@+id/img_post_recevied"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Post Received"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,RtlCompat" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                android:src="@drawable/ic_baseline_navigate_next_24"
+                android:textAlignment="viewEnd"
+                app:tint="@color/gray" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+    </LinearLayout>
+</ScrollView>

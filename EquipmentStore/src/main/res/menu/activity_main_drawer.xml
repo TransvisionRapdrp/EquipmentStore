@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main"
+            android:icon="@drawable/ic_home"
+            android:showAsAction="never"
+            android:title="Home"
+            tools:ignore="AppCompatResource" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/equipment_insert"
+            android:icon="@drawable/request"
+            android:showAsAction="never"
+            android:title="@string/request_equipment"
+            tools:ignore="AppCompatResource" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_recieved"
+            android:icon="@drawable/received"
+            android:showAsAction="never"
+            android:title="@string/received_approval"
+            tools:ignore="AppCompatResource" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/view"
+            android:icon="@drawable/approval"
+            android:showAsAction="never"
+            android:title="@string/view_approval"
+            tools:ignore="AppCompatResource" />
+
+    </group>
+
+    <!--<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_view_allapprovals"
+            android:icon="@drawable/approval"
+            android:showAsAction="never"
+            android:title="@string/view_allapprovals"
+            tools:ignore="AppCompatResource" />
+
+    </group>-->
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/management_nav"
+            android:icon="@drawable/management"
+            android:showAsAction="never"
+            android:title="@string/management"
+            tools:ignore="AppCompatResource" />
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/postoffice_nav"
+            android:icon="@drawable/post_office"
+            android:showAsAction="never"
+            android:title="@string/post_office"
+            tools:ignore="AppCompatResource" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/visitor_nav"
+            android:icon="@drawable/visitors"
+            android:showAsAction="never"
+            android:title="@string/visitors"
+            tools:ignore="AppCompatResource" />
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/staffoutgoing_nav"
+            android:icon="@drawable/staff_outgoing"
+            android:showAsAction="never"
+            android:title="@string/staff_outgoing"
+            tools:ignore="AppCompatResource" />
+    </group>
+
+</menu>
